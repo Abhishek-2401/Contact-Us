@@ -184,14 +184,7 @@ body {
   .camplify-h3{
     color: #1ED760;
   }
-  
-/* src/styles.css */
 
-/* ... (existing styles) */
-
-/* Media queries for responsiveness */
-
-/* Small screens */
 @media only screen and (max-width: 767px) {
   .overlay-div {
     padding: 15px;
