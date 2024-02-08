@@ -209,7 +209,14 @@ body {
   .request-call-section button {
     margin-top: 10px; 
   }
-  
+  .card-2,
+  .card-3,
+  .card-4{
+    margin-left: 0px;
+  }
+  .card-1{
+    margin-left: 10px;
+  }
 }
 
 
