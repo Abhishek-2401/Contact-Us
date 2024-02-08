@@ -1,6 +1,7 @@
 
 body {
   font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
 }
 
 
@@ -184,21 +185,26 @@ body {
     color: #1ED760;
   }
   
+/* src/styles.css */
 
-@media screen and (max-width: 767px) {
+/* ... (existing styles) */
+
+/* Media queries for responsiveness */
+
+/* Small screens */
+@media only screen and (max-width: 767px) {
   .overlay-div {
-    padding: 15px; 
+    padding: 15px;
   }
 
   .call-email-section {
     flex-direction: column;
-    align-items: flex-start; 
+    align-items: flex-start;
     margin-left: 0;
   }
   .email{
     margin-left: 0;
   }
- 
 
   .request-call-section textarea,
   .request-call-section select,
@@ -207,28 +213,23 @@ body {
   }
 
   .request-call-section button {
-    margin-top: 10px; 
+    font-size: 14px; 
+    padding: 8px; 
+    margin-top: 10px;
   }
   .card-2,
   .card-3,
   .card-4{
-    margin-left: 0px;
+    margin-left: 0;
+    margin-right: 20px;
   }
   .card-1{
-    margin-left: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
   }
+  .card-1-text{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
